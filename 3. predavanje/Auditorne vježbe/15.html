@@ -1,0 +1,36 @@
+﻿<html>
+	<head>
+	<title>Svojstvo z-index</title>
+		<style>
+			#prvi {
+				position:fixed;
+				left: 20px;
+				top: 55px;
+				z-index: 3;
+				background-color: lightblue;
+			}
+			#drugi {
+				position:fixed;
+				left: 30px;
+				top: 70px;
+				z-index: 0;
+				background-color: red;
+			}
+			#treci {
+				position:fixed;
+				left: 40px;
+				top: 85px;
+				z-index: 2;
+				background-color: lightgreen;
+			}
+		</style>
+	</head>
+
+<body>
+	<h1>Svojstvo z-index</h1>
+	<div id="prvi">Prvi element z-index: 3</div>
+	<div id="drugi">Drugi element z-index: 0</div>
+	<div id="treci">Treći element z-index: 2</div>
+</body>
+
+</html>
