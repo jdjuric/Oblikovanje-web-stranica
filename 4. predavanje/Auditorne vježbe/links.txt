@@ -1,0 +1,3 @@
+http://gradients.glrzad.com/
+http://lea.verou.me/css3patterns/
+http://www.colorzilla.com/gradient-editor/

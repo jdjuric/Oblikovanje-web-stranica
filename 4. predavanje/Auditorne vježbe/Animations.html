@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Animation</title>
+		<style>
+		@font-face {
+			font-family: 'DS-DIGI';
+			src: url('fonts/DS-DIGI.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@keyframes myfirst {
+			from {background: red;}
+			to {background: yellow;}
+		}
+
+		@-moz-keyframes myfirst{/* Firefox */
+			from {background: red;}
+			to {background: yellow;}
+		}
+		
+		@-webkit-keyframes myfirst {/* Safari and Chrome */
+			from {background: red;}
+			to {background: yellow;}
+		}
+
+		@-o-keyframes myfirst {/* Opera */
+			from {background: red;}
+			to {background: yellow;}
+		}
+		
+		#box {
+			width:100px;
+			height:100px;
+			background:red;
+			animation:myfirst 5s;
+			-moz-animation:myfirst 5s; /* Firefox */
+			-webkit-animation:myfirst 5s; /* Safari and Chrome */
+			-o-animation:myfirst 5s; /* Opera */
+		}
+
+
+		</style>
+	</head>
+	<body>
+		<h1>Animation</h1>
+		<div id="box">
+		</div>
+	</body>
+</html>

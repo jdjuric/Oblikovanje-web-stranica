@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Radial-gradient</title>
+		<style>
+		@font-face {
+			font-family: 'DS-DIGI';
+			src: url('fonts/DS-DIGI.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		#box {
+			font-family: 'DS-DIGI';
+			font-size: 18px;
+			background: linear-gradient(top, #FFFFA6 0%, #BDF271 50%, #01A2A6 100%);
+			background: -moz-linear-gradient(top, #FFFFA6 0%, #BDF271 50%, #01A2A6 100%);
+			/*background: -webkit-linear-gradient(top, #FFFFA6 0%, #BDF271 50%, #01A2A6 100%);*/
+			/*background: -webkit-radial-gradient(center, ellipse cover, #FFFFA6 72%, #01A2A6 100%);*/
+			/*background: -webkit-repeating-linear-gradient(90deg, #ffffff 0px, hsla(0, 1%, 50%,0.8) 5px);*/
+			background: -webkit-repeating-radial-gradient(2px 2px, ellipse, hsla(0,0%,100%,1) 2px, hsla(0,0%,95%,1) 10px, 
+			hsla(0,0%,93%,1) 15px, hsla(0,0%,100%,1) 20px);
+			
+		}
+
+		</style>
+	</head>
+	<body>
+		<h1>Radial-gradient</h1>
+		<div id="box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et urna eu ligula fermentum pulvinar. Quisque quis justo lorem. Suspendisse porttitor lobortis erat ut posuere. Vestibulum hendrerit porta orci ut mattis. Fusce lacus eros, vehicula sed pharetra id, tristique a elit. Aliquam quis nisl sit amet nibh malesuada sagittis. Pellentesque non mauris ut arcu suscipit hendrerit imperdiet porta quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi.
+			Pellentesque nec elit dolor, nec mollis urna.
+		</div>
+	</body>
+</html>
