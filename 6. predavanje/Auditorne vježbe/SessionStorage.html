@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script>
+function clickCounter()
+{
+if(typeof(Storage)!=="undefined")
+  {
+  if (sessionStorage.clickcount)
+    {
+    sessionStorage.clickcount=Number(sessionStorage.clickcount)+1;
+    }
+  else
+    {
+    sessionStorage.clickcount=1;
+    }
+  document.getElementById("result").innerHTML="Kliknuli ste gumb  " + sessionStorage.clickcount + " put(a) unutar ove sesije.";
+  }
+else
+  {
+  document.getElementById("result").innerHTML="Sorry, your browser does not support web storage...";
+  }
+}
+</script>
+</head>
+<body>
+<p><button onclick="clickCounter()" type="button">Klikni me!</button></p>
+<div id="result"></div>
+<p>Kliknite gumb za uvećavanje brojača.</p>
+<p>Zatvorite tab ili prozor preglednika i pokušajte ponovno. Brojač će se resetirati.</p>
+</body>
+</html>
+

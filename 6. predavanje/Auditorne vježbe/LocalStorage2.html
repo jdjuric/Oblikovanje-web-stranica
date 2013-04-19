@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script>
+function clickCounter()
+{
+if(typeof(Storage)!=="undefined")
+  {
+  if (localStorage.clickcount)
+    {
+    localStorage.clickcount=Number(localStorage.clickcount)+1;
+    }
+  else
+    {
+    localStorage.clickcount=1;
+    }
+  document.getElementById("result").innerHTML="Kliknuli ste gumb " + localStorage.clickcount + " put(a).";
+  }
+else
+  {
+  document.getElementById("result").innerHTML="Sorry, your browser does not support web storage...";
+  }
+}
+function cleanLocalStorage(){
+	localStorage.clear();
+}
+
+</script>
+</head>
+<body>
+<p><button onclick="clickCounter()" type="button">Klikni me!</button></p>
+<p><button onclick="cleanLocalStorage()" type="button">Reset!</button></p>
+<div id="result"></div>
+<p>Kliknite gumb za uvećavanje brojača.</p>
+<p>Zatvorite tab ili prozor preglednika i pokušajte ponovno. Brojač se neće resetirati.</p>
+</body>
+</html>
+
+
