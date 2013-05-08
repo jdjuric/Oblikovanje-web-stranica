@@ -1,0 +1,12 @@
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_p
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_id
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_class
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_this
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_click
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dblclick
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_mouseenter
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_mouseleave
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_mousedown
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_mouseup
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hover
+http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_focus_blur

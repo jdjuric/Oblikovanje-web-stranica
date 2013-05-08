@@ -1,0 +1,58 @@
+<korisnici>
+    <korisnik>
+        <id>1</id>
+        <ime>Ana</ime>
+        <prezime>Anic</prezime>
+	<korisnickoIme>malaana</korisnickoIme>
+	<lozinka>ana</lozinka>
+        <telefon type="kucni">01/5552523</telefon>
+        <telefon type="mobilni">091/5552523</telefon>
+        <adresa>
+            <ulica>Ilica 46</ulica>
+            <mjesto>Zagreb</mjesto>
+            <pbr>10000</pbr>
+        </adresa>
+    </korisnik>
+    <korisnik>
+        <id>1002</id>
+        <ime>Pero</ime>
+        <prezime>Peric</prezime>
+	<korisnickoIme>malipero</korisnickoIme>
+	<lozinka>perica</lozinka>
+        <telefon type="kucni">01/1562523</telefon>
+        <telefon type="mobilni">098/899758</telefon>
+        <adresa>
+            <ulica>Petrova 13</ulica>
+            <mjesto>Zagreb</mjesto>
+            <pbr>10000</pbr>
+        </adresa>
+    </korisnik>
+ <korisnik>
+        <id>1003</id>
+        <ime>Ivana</ime>
+        <prezime>Maric</prezime>
+	<korisnickoIme>iva</korisnickoIme>
+	<lozinka>ivica</lozinka>
+        <telefon type="kucni">01/256823</telefon>
+        <telefon type="mobilni">098/91941758</telefon>
+        <adresa>
+            <ulica>Hrgovici 13</ulica>
+            <mjesto>Zagreb</mjesto>
+            <pbr>10000</pbr>
+        </adresa>
+    </korisnik>
+ <korisnik>
+        <id>1004</id>
+        <ime>Filip</ime>
+        <prezime>Filipovic</prezime>
+	<korisnickoIme>filipov</korisnickoIme>
+	<lozinka>filipov</lozinka>
+        <telefon type="kucni">01/187983</telefon>
+        <telefon type="mobilni">098/23659758</telefon>
+        <adresa>
+            <ulica>Jurisiceva 3</ulica>
+            <mjesto>Zagreb</mjesto>
+            <pbr>10000</pbr>
+        </adresa>
+    </korisnik>
+</korisnici>

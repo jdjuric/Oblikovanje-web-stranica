@@ -1,0 +1,7 @@
+http://www.w3schools.com/ajax/ajax_example.asp
+http://www.w3schools.com/ajax/tryit.asp?filename=tryajax_xml
+http://www.w3schools.com/ajax/tryit.asp?filename=tryajax_header
+http://www.w3schools.com/ajax/tryit.asp?filename=tryajax_lastmodified
+http://www.w3schools.com/ajax/tryit.asp?filename=tryajax_suggest
+http://www.w3schools.com/ajax/tryit.asp?filename=tryajax_database
+http://www.w3schools.com/ajax/tryit.asp?filename=tryajax_xml2
