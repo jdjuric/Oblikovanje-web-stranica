@@ -1,0 +1,10 @@
+http://web-kreation.com/demos/Sliding_login_panel_jquery/#
+http://interface.eyecon.ro/demos/sort.html
+http://tympanus.net/Tutorials/ItemBlur/
+http://tympanus.net/Tutorials/AnimatedFormSwitching/
+http://tympanus.net/Tutorials/TypographyEffects/index.html
+http://css-tricks.com/jquery-robot/
+http://www.webdesignerdepot.com/2012/01/password-strength-verification-with-jquery/
+http://tympanus.net/Tutorials/ProximityEffect/index.html
+http://tympanus.net/Tutorials/BeautifulBackgroundImageNavigation/
+http://line25.com/tutorials/how-to-create-a-cool-animated-menu-with-jquery
